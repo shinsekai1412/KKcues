@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bank {
+  width: 800px;
+  min-height: 50px;
+  float: left; }
+  .bank__header {
+    background-color: #b6b6b6;
+    padding: 25px 15px 20px; }
+    .bank__header img {
+      width: 28.5%;
+      top: 0;
+      left: 30.8%;
+      position: absolute; }
+  .bank__left {
+    width: 40%;
+    border: 1px solid #000;
+    float: left; }
+  .bank__right {
+    width: 60%;
+    border: 1px solid #000;
+    float: left; }
+  .bank__img {
+    width: 80%;
+    margin: 18.25px 10%; }
+  .bank__info {
+    padding: 38px 50px 19px; }
+  .bank__text {
+    font-weight: bold;
+    margin-bottom: 20px; }
+    .bank__text--red {
+      color: red; }
+    .bank__text--blue {
+      color: blue; }
+    .bank__text--black {
+      color: black; }
+    .bank__text--lg {
+      font-size: 25px; }
+    .bank__text--md {
+      font-size: 20px; }
+
+/*# sourceMappingURL=index.css.map */

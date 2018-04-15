@@ -1,0 +1,62 @@
+$text-red: red;
+$text-blue: blue;
+$text-black: black;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bank {
+  width: 800px;
+  min-height: 50px;
+  float: left;
+  &__header {
+    background-color: rgb(182, 182, 182);
+    padding: 25px 15px 20px;
+    img {
+      width: 28.5%;
+      top: 0;
+      left: 30.8%;
+      position: absolute;
+    }
+  }
+  &__left {
+    width: 40%;
+    border: 1px solid #000;
+    float: left;
+  }
+  &__right {
+    width: 60%;
+    border: 1px solid #000;
+    float: left;
+  }
+  &__img {
+    width: 80%;
+    margin: 18.25px 10%;
+  }
+  &__info {
+    padding: 38px 50px 19px;
+  }
+  &__text {
+    font-weight: bold;
+    margin-bottom: 20px;
+    &--red {
+      color: $text-red;
+    }
+    &--blue {
+      color: $text-blue;
+    }
+    &--black {
+      color: $text-black;
+    }
+    &--lg {
+      font-size: 25px;
+    }
+    &--md {
+      font-size: 20px;
+    }
+  }
+}
+
